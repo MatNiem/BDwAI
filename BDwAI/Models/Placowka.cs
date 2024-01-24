@@ -4,6 +4,10 @@ namespace BDwAI.Models
 {
     public class Placowka
     {
+        public Placowka()
+        {
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -24,5 +28,6 @@ namespace BDwAI.Models
         public List<Lekarz> Lekarze { get; set; }
 
         public List<Opinia> Opinie { get; set; }
+
     }
 }
