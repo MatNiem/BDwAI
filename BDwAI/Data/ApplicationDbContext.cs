@@ -11,5 +11,10 @@ namespace BDwAI.Data
         {
         }
         public DbSet<BDwAI.Models.Placowka> Placowka { get; set; } = default!;
+        public DbSet<BDwAI.Models.Zdjecie> Zdjecia { get; set; } = default!;
+        public DbSet<BDwAI.Models.Opinia> Opinie { get; set; } = default!;
+        public DbSet<BDwAI.Models.Lekarz> Lekarze { get; set; } = default!;
+        public DbSet<BDwAI.Models.Rezerwacja> Rezerwacje { get; set; } = default!;
+        public DbSet<BDwAI.Models.Uzytkownik> Uzytkownicy { get; set; } = default!;
     }
 }
