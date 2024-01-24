@@ -11,5 +11,6 @@ namespace BDwAI.Data
         {
         }
         public DbSet<BDwAI.Models.Placowka> Placowka { get; set; } = default!;
+        public DbSet<BDwAI.Models.Rezerwacja> Rezerwacja { get; set; } = default!;
     }
 }
